@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.lana{
+    background-image: url("https://themewagon.github.io/purple-buzz/assets/img/banner-bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20%;
+    width: 70%;
+    height: 100%;
+    gap: 20px;
+    color: rgba(0, 0, 0, .55);
+}
+.non{
+    color: #6266ea;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+}
+.null{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.get{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #6266ea;
+    border-radius: 50px;
+    color: #6266ea;
+    font-size: 15px;
+    &:hover{
+        background-color: #6266ea;
+        color: white;
+        transition: 0.3s;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 576px) {
+.lana {
+    height: auto;
+    padding: 40px 20px;
+    background-position: center;
+  }
+
+  .shop {
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .non {
+    font-size: 35px;
+  }
+
+  .null {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .get {
+    width: 130px;
+    height: 38px;
+    font-size: 14px;
+  }
+}

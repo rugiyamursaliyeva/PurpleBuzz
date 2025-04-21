@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.secon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 230px;
+}
+.medias{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.newsbn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6266ea;
+    font-size: 35px;
+}
+.media{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.doe{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 350px;
+    gap: 25px;
+}
+.med{
+    font-size: 16px;
+    color: #212529;
+}
+.dow{
+    display: flex;
+    flex-direction: column;
+    color: #6c757d;
+    font-size: 13px;
+}
+.formContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+.forms {
+  display: flex;
+  gap: 20px;
+}
+
+.inputs {
+  width: 100%;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.submit{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submitbts {
+  width: 150px;
+  height: 40px;
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+ error {
+display: block;
+width: 100%;
+color: red;
+font-size: 14px;
+margin-top: 4px;
+}
+.ilo{
+    display: flex;
+    flex-direction: column;
+}
+.format {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+.format {
+  flex-direction: column;
+  width: 100%;
+  padding: 0 15px;
+  gap: 40px;
+}
+.secon {
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 0;
+}
+.medias {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.doe {
+  width: 90%;
+  align-items: center;
+  text-align: center;
+}
+.formContainer {
+  width: 100%;
+}
+.forms {
+  flex-direction: column;
+  gap: 15px;
+}
+.submit {
+  justify-content: center;
+}
+.submitbts {
+  width: 100%;
+}
+.newsbn {
+  font-size: 28px;
+}
+}

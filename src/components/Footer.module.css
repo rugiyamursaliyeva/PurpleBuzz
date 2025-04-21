@@ -1,0 +1,167 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #6266ea;
+  width: 100%;
+  padding: 40px 20px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 250px;
+  color: white;
+}
+
+.prp {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 5px;
+}
+
+.bnn {
+  font-size: 15px;
+}
+
+.mor,
+.buzz {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.lorem {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons svg {
+  width: 23px;
+  height: 23px;
+  padding: 4px;
+  color: #6266ea;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.comp,
+.comps {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.our,
+.ours {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.hms li,
+.hmt li {
+  list-style-type: none;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.3s ease;
+  &:hover{
+      color: #ccc;
+  }
+}
+
+.for {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+.foo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #3b2daa;
+}
+.crip{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 45%;
+}
+.by{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  gap: 45px;
+}
+@media screen and (min-width: 300px) and (max-width: 576px) {
+.foo {
+  flex-direction: column;
+  height: auto;
+  padding: 20px 0;
+  gap: 20px;
+  text-align: center;
+}
+.crip {
+  width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
+}
+.by {
+  flex-direction: column;
+  gap: 10px;
+  font-size: 12px;
+}
+}

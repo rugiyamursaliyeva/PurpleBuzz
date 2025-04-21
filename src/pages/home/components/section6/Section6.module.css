@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 40px;
+  }
+  
+  .containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .cardGrids {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    gap: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 300px;
+  }
+  
+  .image {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .overlays {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(98, 102, 234, 0); 
+    transition: background-color 0.3s ease;
+  }
+
+  .cards:hover .overlays {
+    background-color: rgba(98, 102, 234, 0.6); 
+  }
+  
+  .categorys h3 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  .ullo{
+    position: absolute;
+    top:100px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .texts {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .texts p {
+    font-size: 14px;
+    color: white;
+  }
+  
