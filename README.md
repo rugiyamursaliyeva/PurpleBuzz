@@ -1,1 +1,1 @@
-![Purple Buzz Screenshot](assets/purplebuzz.png)
+![Purple Buzz Screenshot](purplebuzz.png)
